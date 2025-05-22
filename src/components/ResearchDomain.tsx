@@ -4,44 +4,108 @@ const sections = [
   {
     label: "Background",
     content: (
-      <p className="text-gray-700 leading-relaxed">
-        E-learning is a powerful educational tool that uses online platforms like videos, webinars, and documents to enhance student engagement.
-        However, current platforms often lack adaptability and student wellness features. BioMentor addresses these issues by offering easy, personalized, and health-conscious learning for A/L Biology students.
-      </p>
-    ),
+  <div className="space-y-4">
+    <p className="text-gray-700 leading-relaxed text-center">
+      A/L Biology students in Sri Lanka face challenges with memorizing complex terms, understanding long texts, and getting personalized feedback. Traditional tools don’t support diverse learning styles or adapt to individual needs.
+    </p>
+    <p className="text-gray-700 leading-relaxed text-center">
+      BioMentor was created to solve these problems. It’s a personalized e-learning platform that uses spaced repetition, adaptive quizzes, summaries, and answer evaluation to help students learn more effectively using government-approved content.
+    </p>
+  </div>
+),
+
+
   },
   {
     label: "Research Gap",
     content: (
-      <p className="text-gray-700 leading-relaxed">
-        Existing tools focus mainly on content delivery without personalization or adaptive assessments. Mental health and attention metrics are rarely considered. There's a clear need for AI-based systems that also support well-being, specifically tailored for A/L education in Sri Lanka.
+      <p className="text-gray-700 leading-relaxed text-center">
+    Despite the rise of digital education platforms in Sri Lanka, A/L Biology students still face significant challenges due to the lack of personalized and adaptive learning tools. Existing platforms are often static, offering limited support for vocabulary retention, comprehension of large volumes of text, or development of exam-oriented answering skills. They do not adapt to a student's individual performance or provide detailed feedback, making it difficult for learners to identify and improve on weak areas. Moreover, there is minimal integration of features that support auditory learners, topic-specific summaries, or structured answer evaluation-all of which are crucial for mastering A/L Biology. This gap calls for a more holistic solution that aligns with the local syllabus, accommodates diverse learning styles, and provides real-time, actionable insights to guide student progress-goals that BioMentor aims to fulfill.
       </p>
     ),
   },
   {
-    label: "Research Problem",
-    content: (
-      <p className="text-gray-700 leading-relaxed">
-        How can we design an intelligent, adaptive e-learning platform that enhances biology education and mental well-being using modern AI tools like summarization, semantic evaluation, and personalized assessments?
-      </p>
-    ),
-  },
+  label: "Research Problem",
+  content: (
+    <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 gap-8 text-left text-gray-700 text-base">
+      
+      <div className="bg-white shadow-md p-6 rounded-xl border-l-4 border-green-500">
+        <h4 className="font-semibold text-green-800 mb-2">📚 AI Summarization</h4>
+        <p>
+          How can we generate concise, exam-relevant summaries from A/L biology materials using customizable lengths and voice support, while ensuring alignment with the national syllabus?
+        </p>
+      </div>
+      
+      <div className="bg-white shadow-md p-6 rounded-xl border-l-4 border-green-500">
+        <h4 className="font-semibold text-green-800 mb-2">🧪 Adaptive Quizzes</h4>
+        <p>
+          How can we create a dynamic quiz system that adjusts MCQ difficulty based on student performance and accurately identifies learning gaps through real-time feedback?
+        </p>
+      </div>
+      
+      <div className="bg-white shadow-md p-6 rounded-xl border-l-4 border-green-500">
+        <h4 className="font-semibold text-green-800 mb-2">📝 Answer Evaluation</h4>
+        <p>
+          How can we assist students in improving structured and essay-type answers by evaluating their responses using semantic scoring and offering actionable feedback aligned with curriculum standards?
+        </p>
+      </div>
+      
+      <div className="bg-white shadow-md p-6 rounded-xl border-l-4 border-green-500">
+        <h4 className="font-semibold text-green-800 mb-2">🔁 Spaced Repetition</h4>
+        <p>
+          How can we optimize vocabulary memorization in biology by customizing spaced review intervals based on the difficulty of terms and the student’s recall performance?
+        </p>
+      </div>
+
+    </div>
+  ),
+}
+,
   {
-    label: "Research Objectives",
-    content: (
-      <ul className="list-disc list-inside text-gray-700 space-y-2">
-        <li>Implement RAG-based summarization for biology study material.</li>
-        <li>Develop adaptive quizzes using LLMs and student performance history.</li>
-        <li>Evaluate answers using semantic scoring and feedback mechanisms.</li>
-        <li>Integrate SM-2 spaced repetition for memory enhancement.</li>
-        <li>Enhance well-being via attention detection and emotion support tools.</li>
-      </ul>
-    ),
-  },
+  label: "Research Objectives",
+  content: (
+    <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 gap-8 text-left text-gray-700 text-base">
+      
+      <div className="bg-white shadow-md p-6 rounded-xl border-l-4 border-green-500">
+        <h4 className="font-semibold text-green-800 mb-2">📚 AI Summarization</h4>
+        <p>
+          To develop a summarization tool that generates clear, concise, and customizable summaries from A/L biology materials, with voice output and support for multiple learning styles.
+        </p>
+      </div>
+
+      <div className="bg-white shadow-md p-6 rounded-xl border-l-4 border-green-500">
+        <h4 className="font-semibold text-green-800 mb-2">🧪 Adaptive Quizzes</h4>
+        <p>
+          To create a quiz platform that adapts MCQ difficulty in real-time based on student performance and provides detailed feedback and analytics to support targeted learning.
+        </p>
+      </div>
+
+      <div className="bg-white shadow-md p-6 rounded-xl border-l-4 border-green-500">
+        <h4 className="font-semibold text-green-800 mb-2">📝 Answer Evaluation</h4>
+        <p>
+          To build a system that evaluates student-written structured and essay-type answers, offers improvement suggestions, and tracks individual progress using relevant scoring models.
+        </p>
+      </div>
+
+      <div className="bg-white shadow-md p-6 rounded-xl border-l-4 border-green-500">
+        <h4 className="font-semibold text-green-800 mb-2">🔁 Spaced Repetition</h4>
+        <p>
+          To implement a vocabulary learning tool using the SM-2 algorithm that adjusts review intervals based on recall difficulty, helping students retain complex biology terms effectively.
+        </p>
+      </div>
+
+    </div>
+  ),
+}
+
+
 ];
 
 export default function ResearchDomain() {
   const [activeTab, setActiveTab] = useState(0);
+
+  // Sections that should have the outer border (index-based)
+  const borderedSections = [0, 1]; // Background and Research Gap
 
   return (
     <section className="py-24 bg-gradient-to-br from-green-50 via-white to-emerald-100" id="domain">
@@ -67,7 +131,13 @@ export default function ResearchDomain() {
         </div>
 
         {/* Content */}
-        <div className="bg-white p-6 md:p-8 rounded-xl shadow-md border-l-4 border-green-500 transition-all duration-300">
+        <div
+          className={`p-6 md:p-8 rounded-xl shadow-md transition-all duration-300 ${
+            borderedSections.includes(activeTab)
+              ? "bg-white border-l-4 border-green-500"
+              : "bg-white"
+          }`}
+        >
           {sections[activeTab].content}
         </div>
       </div>

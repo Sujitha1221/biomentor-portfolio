@@ -1,22 +1,7 @@
+import DharaneImg from '../assets/images/dharane.png';
+
+
 const team = [
-  {
-    name: "Gokul Abisheak",
-    role: "Research Lead",
-    email: "gokulabisheak12@gmail.com",
-    img: "https://ui-avatars.com/api/?name=Gokul+Abisheak&background=34d399&color=fff",
-  },
-  {
-    name: "Sajeevan S",
-    role: "Tech Lead",
-    email: "sajeesiva12@gmail.com",
-    img: "https://ui-avatars.com/api/?name=Sajeevan+S&background=34d399&color=fff",
-  },
-  {
-    name: "Dharane S",
-    role: "ML Engineer",
-    email: "dharanesegar08@gmail.com",
-    img: "https://ui-avatars.com/api/?name=Dharane+S&background=34d399&color=fff",
-  },
   {
     name: "Dr. Sanvitha Kasthuriarachchi",
     role: "Supervisor",
@@ -24,17 +9,37 @@ const team = [
     img: "https://ui-avatars.com/api/?name=Sanvitha+K&background=34d399&color=fff",
   },
   {
+    name: "Gokul Abisheak",
+    role: "Team Leader",
+    email: "gokulabisheak12@gmail.com",
+    img: "https://ui-avatars.com/api/?name=Gokul+Abisheak&background=34d399&color=fff",
+  },
+  {
+    name: "Sajeevan S",
+    role: "Member",
+    email: "sajeesiva12@gmail.com",
+    img: "https://ui-avatars.com/api/?name=Sajeevan+S&background=34d399&color=fff",
+  },
+  {
+    name: "Dharane S",
+    role: "Member",
+    email: "dharanesegar08@gmail.com",
+  img: DharaneImg, 
+  },
+  {
+    name: "Sujitha S",
+    role: "Member",
+    email: "sujithasrikanthan@gmail.com",
+    img: "https://ui-avatars.com/api/?name=Sujitha+S&background=34d399&color=fff",
+  },
+  
+  {
     name: "Karthiga Rajendran",
     role: "Co-Supervisor",
     email: "karthiga.r@sliit.lk",
     img: "https://ui-avatars.com/api/?name=Karthiga+Rajendran&background=34d399&color=fff",
   },
-  {
-    name: "Sujitha S",
-    role: "Research Coordinator",
-    email: "sujithasrikanthan@gmail.com",
-    img: "https://ui-avatars.com/api/?name=Sujitha+S&background=34d399&color=fff",
-  },
+  
 ];
 
 export default function Team() {

@@ -1,21 +1,22 @@
 const features = [
   {
     title: "AI Summarization",
-    desc: "Uses Retrieval-Augmented Generation (RAG) and Flan-T5 to generate accurate, structured content summaries.",
+    desc: "Developed and analyzed in both monolithic and microservices architectures, this tool uses the Flan-T5 base model with RAG to generate structured summaries and notes with voice output. Notes are available in English, Tamil, and Sinhala."
   },
   {
     title: "Adaptive Quizzes",
-    desc: "Dynamically generates and adjusts MCQ difficulty using Item Response Theory (IRT).",
+    desc: "Generates MCQs dynamically and adjusts difficulty in real-time using Item Response Theory (IRT), student performance tracking, and semantic filtering to enhance personalized practice."
   },
   {
     title: "Answer Evaluation",
-    desc: "Leverages semantic similarity models to analyze and score answers with rich feedback.",
+    desc: "Evaluates structured and essay-type responses using semantic similarity, grammar scoring, and curriculum-aligned model answers to provide personalized feedback and performance insights."
   },
   {
     title: "Spaced Repetition",
-    desc: "Implements the SM-2 algorithm to schedule memory-optimized vocabulary and concept reviews.",
+    desc: "Uses the SM-2 algorithm to schedule personalized vocabulary reviews based on recall performance, with daily flashcards, pronunciation support, and progress tracking."
   },
 ];
+
 
 export default function Features() {
   return (

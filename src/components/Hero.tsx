@@ -15,7 +15,7 @@ export default function Hero() {
           </h1>
           <p className="text-lg text-gray-700 mb-6 leading-relaxed max-w-lg">
             BioMentor personalizes education using intelligent summarization, adaptive quizzes, answer evaluation,
-            and spaced repetition — built for smarter biology learning.
+            and spaced repetitio - built for smarter biology learning.
           </p>
           <a
             href="#about"

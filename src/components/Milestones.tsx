@@ -1,7 +1,7 @@
 const milestones = [
   {
     title: "Project Topic Assessment",
-    date: "January 2023",
+    date: "July 2024",
     description: "Initial topic assessment document submitted. Included research problem, objectives, and task breakdown.",
     marks: "No marks allocated",
   },
@@ -13,13 +13,13 @@ const milestones = [
   },
   {
     title: "Project Proposal Presentation",
-    date: "March 2023",
+    date: "August 2024",
     description: "Presented the proposed research to a panel of judges.",
     marks: "Marks Allocation - 6%",
   },
   {
     title: "Project Proposal Report",
-    date: "March 2023",
+    date: "August 2024",
     description: "In-depth analysis and proposed solution submitted as a formal report.",
     marks: "Marks Allocation - 6%",
   },
@@ -31,25 +31,25 @@ const milestones = [
   },
   {
     title: "Progress Presentation 1",
-    date: "May 2023",
+    date: "December 2024",
     description: "Evaluation of 50% completion of the proposed solution.",
     marks: "Marks Allocation - 15%",
   },
   {
     title: "Research Paper Draft",
-    date: "June 2023",
+    date: "February 2025",
     description: "Submitted draft research paper for supervisor review.",
     marks: "Marks Allocation - 10%",
   },
   {
     title: "Final Thesis Submission",
-    date: "September 2023",
+    date: "March 2025",
     description: "Group and individual thesis documents submitted for evaluation.",
     marks: "Marks Allocation - 19%",
   },
   {
     title: "Progress Presentation 2",
-    date: "September 2023",
+    date: "March 2025",
     description: "Evaluation of 90% project completion.",
     marks: "Marks Allocation - 18%",
   },
@@ -61,13 +61,13 @@ const milestones = [
   },
   {
     title: "Website Assessment",
-    date: "November 2023",
+    date: "May 2025",
     description: "Research website submitted for review.",
     marks: "Marks Allocation - 2%",
   },
   {
     title: "Final Presentation & Viva",
-    date: "November 2023",
+    date: "May 2025",
     description: "Final evaluation of the completed product by judges.",
     marks: "Marks Allocation - 20%",
   },
