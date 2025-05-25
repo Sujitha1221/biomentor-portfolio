@@ -1,5 +1,12 @@
 import DharaneImg from '../assets/images/Dharane.jpeg';
 import SajeevanImg from '../assets/images/Sajeevan.jpeg';
+import SanvithaImg from '../assets/images/Sanvitha.png';
+import KarthigaImg from '../assets/images/Karthiga.jpeg';
+import GokulImg from '../assets/images/Gokul.png';
+import SujithaImg from '../assets/images/Sujitha.png';
+
+
+
 
 
 const team = [
@@ -7,13 +14,13 @@ const team = [
     name: "Dr. Sanvitha Kasthuriarachchi",
     role: "Supervisor",
     email: "sanvitha.k@sliit.lk",
-    img: "https://ui-avatars.com/api/?name=Sanvitha+K&background=34d399&color=fff",
+    img: SanvithaImg,
   },
   {
     name: "Gokul Abisheak",
     role: "Team Leader",
     email: "gokulabisheak12@gmail.com",
-    img: "https://ui-avatars.com/api/?name=Gokul+Abisheak&background=34d399&color=fff",
+    img: GokulImg,
   },
   {
     name: "Sajeevan S",
@@ -31,14 +38,14 @@ const team = [
     name: "Sujitha S",
     role: "Member",
     email: "sujithasrikanthan@gmail.com",
-    img: "https://ui-avatars.com/api/?name=Sujitha+S&background=34d399&color=fff",
+    img: SujithaImg,
   },
   
   {
     name: "Karthiga Rajendran",
     role: "Co-Supervisor",
     email: "karthiga.r@sliit.lk",
-    img: "https://ui-avatars.com/api/?name=Karthiga+Rajendran&background=34d399&color=fff",
+    img: KarthigaImg,
   },
   
 ];
