@@ -8,14 +8,14 @@ export default function Hero() {
         {/* Left: Text */}
         <div>
           <h1 className="text-4xl lg:text-5xl font-extrabold text-green-800 leading-tight mb-6">
-            AI-Powered Learning for <br />
+            Biology Made Brilliant <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-emerald-500">
-              A/L Biology Students
+              Smarter Tools, Better Grades 
             </span>
           </h1>
           <p className="text-lg text-gray-700 mb-6 leading-relaxed max-w-lg">
             BioMentor personalizes education using intelligent summarization, adaptive quizzes, answer evaluation,
-            and spaced repetitio - built for smarter biology learning.
+            and spaced repetition - built for smarter biology learning.
           </p>
           <a
             href="#about"
