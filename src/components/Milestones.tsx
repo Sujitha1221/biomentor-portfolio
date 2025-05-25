@@ -3,73 +3,73 @@ const milestones = [
     title: "Project Topic Assessment",
     date: "July 2024",
     description: "Initial topic assessment document submitted. Included research problem, objectives, and task breakdown.",
-    marks: "No marks allocated",
+    // marks: "No marks allocated",
   },
-  {
-    title: "Project Charter Submission",
-    date: "January 2023",
-    description: "Finalized topic and submitted project charter including all key aspects of the research.",
-    marks: "No marks allocated",
-  },
+  // {
+  //   title: "Project Charter Submission",
+  //   date: "January 2023",
+  //   description: "Finalized topic and submitted project charter including all key aspects of the research.",
+  //   marks: "No marks allocated",
+  // },
   {
     title: "Project Proposal Presentation",
     date: "August 2024",
     description: "Presented the proposed research to a panel of judges.",
-    marks: "Marks Allocation - 6%",
+    // marks: "Marks Allocation - 6%",
   },
   {
     title: "Project Proposal Report",
     date: "August 2024",
     description: "In-depth analysis and proposed solution submitted as a formal report.",
-    marks: "Marks Allocation - 6%",
+    // marks: "Marks Allocation - 6%",
   },
-  {
-    title: "Status Document 1",
-    date: "May 2023",
-    description: "Overview of implementation tasks completed by team members.",
-    marks: "Marks Allocation - 1%",
-  },
+  // {
+  //   title: "Status Document 1",
+  //   date: "May 2023",
+  //   description: "Overview of implementation tasks completed by team members.",
+  //   marks: "Marks Allocation - 1%",
+  // },
   {
     title: "Progress Presentation 1",
     date: "December 2024",
     description: "Evaluation of 50% completion of the proposed solution.",
-    marks: "Marks Allocation - 15%",
+    // marks: "Marks Allocation - 15%",
   },
   {
     title: "Research Paper Draft",
     date: "February 2025",
     description: "Submitted draft research paper for supervisor review.",
-    marks: "Marks Allocation - 10%",
+    // marks: "Marks Allocation - 10%",
   },
   {
     title: "Final Thesis Submission",
     date: "March 2025",
     description: "Group and individual thesis documents submitted for evaluation.",
-    marks: "Marks Allocation - 19%",
+    // marks: "Marks Allocation - 19%",
   },
   {
     title: "Progress Presentation 2",
     date: "March 2025",
     description: "Evaluation of 90% project completion.",
-    marks: "Marks Allocation - 18%",
+    // marks: "Marks Allocation - 18%",
   },
-  {
-    title: "Log Book & Status Document 2",
-    date: "October 2023",
-    description: "Logbook and final implementation tasks summary submitted.",
-    marks: "Marks Allocation - 3%",
-  },
+  // {
+  //   title: "Log Book & Status Document 2",
+  //   date: "October 2023",
+  //   description: "Logbook and final implementation tasks summary submitted.",
+  //   marks: "Marks Allocation - 3%",
+  // },
   {
     title: "Website Assessment",
     date: "May 2025",
     description: "Research website submitted for review.",
-    marks: "Marks Allocation - 2%",
+    // marks: "Marks Allocation - 2%",
   },
   {
     title: "Final Presentation & Viva",
     date: "May 2025",
     description: "Final evaluation of the completed product by judges.",
-    marks: "Marks Allocation - 20%",
+    // marks: "Marks Allocation - 20%",
   },
 ];
 
@@ -91,9 +91,9 @@ export default function Milestones() {
                     <h3 className="text-lg font-semibold text-green-800">{m.title}</h3>
                     <p className="text-sm text-gray-500">{m.date}</p>
                   </div>
-                  <span className="text-xs font-semibold px-3 py-1 rounded-full bg-green-600 text-white shadow">
+                  {/* <span className="text-xs font-semibold px-3 py-1 rounded-full bg-green-600 text-white shadow">
                     {m.marks}
-                  </span>
+                  </span> */}
                 </div>
                 <p className="text-sm text-gray-600 mt-3 leading-relaxed">{m.description}</p>
               </div>

@@ -26,13 +26,13 @@ export default function Hero() {
         </div>
 
         {/* Right: Image */}
-        <div className="flex justify-center">
-          <img
-            src="https://i.gifer.com/origin/55/553ed60cdeaf2a0bb71ec706a8d1673c_w200.gif"
-            alt="AI Learning Illustration"
-            className="w-full max-w-md md:max-w-lg rounded-xl shadow-lg"
-          />
-        </div>
+        <div className="flex justify-center items-center py-8">
+  <img
+    src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGszd3ppYzJxaHh2cjF5bnh5Y2lkemxsYmZvOGkyMDJxNXJ5ejN1NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/yeUxljCJjH1rW/giphy.gif"
+    className="w-full max-w-md md:max-w-lg rounded-xl shadow-lg"
+  />
+</div>
+
       </div>
     </section>
   );

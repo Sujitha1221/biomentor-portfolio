@@ -1,4 +1,5 @@
-import DharaneImg from '../assets/images/dharane.png';
+import DharaneImg from '../assets/images/Dharane.jpeg';
+import SajeevanImg from '../assets/images/Sajeevan.jpeg';
 
 
 const team = [
@@ -18,7 +19,7 @@ const team = [
     name: "Sajeevan S",
     role: "Member",
     email: "sajeesiva12@gmail.com",
-    img: "https://ui-avatars.com/api/?name=Sajeevan+S&background=34d399&color=fff",
+    img: SajeevanImg,
   },
   {
     name: "Dharane S",

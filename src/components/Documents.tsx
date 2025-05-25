@@ -8,19 +8,19 @@ const allDocuments = [
       { name: "Proposal Report - IT21204302", path: "IT21204302-Project-Proposal.pdf" },
     ],
   },
-  {
-    category: "Status Documents",
-    files: [
-      { name: "Status Document 1 - IT21375132", path: "IT21375132_Status_Document_1.pdf" },
-      { name: "Status Document 1 - IT21068478", path: "IT21068478_Status_Document_1.pdf" },
-      { name: "Status Document 1 - IT21264634", path: "IT21264634_Status_Document_1.pdf" },
-      { name: "Status Document 1 - IT21204302", path: "IT21204302_Status_Document_1.pdf" },
-      { name: "Status Document 2 - IT21375132", path: "IT21375132_Status_Document_2.pdf" },
-      { name: "Status Document 2 - IT21068478", path: "IT21068478_Status_Document_2.pdf" },
-      { name: "Status Document 2 - IT21264634", path: "IT21264634_Status_Document_2.pdf" },
-      { name: "Status Document 2 - IT21204302", path: "IT21204302_Status_Document_2.pdf" },
-    ],
-  },
+  // {
+  //   category: "Status Documents",
+  //   files: [
+  //     { name: "Status Document 1 - IT21375132", path: "IT21375132_Status_Document_1.pdf" },
+  //     { name: "Status Document 1 - IT21068478", path: "IT21068478_Status_Document_1.pdf" },
+  //     { name: "Status Document 1 - IT21264634", path: "IT21264634_Status_Document_1.pdf" },
+  //     { name: "Status Document 1 - IT21204302", path: "IT21204302_Status_Document_1.pdf" },
+  //     { name: "Status Document 2 - IT21375132", path: "IT21375132_Status_Document_2.pdf" },
+  //     { name: "Status Document 2 - IT21068478", path: "IT21068478_Status_Document_2.pdf" },
+  //     { name: "Status Document 2 - IT21264634", path: "IT21264634_Status_Document_2.pdf" },
+  //     { name: "Status Document 2 - IT21204302", path: "IT21204302_Status_Document_2.pdf" },
+  //   ],
+  // },
   {
     category: "Final Reports",
     files: [
@@ -31,15 +31,15 @@ const allDocuments = [
       { name: "Final Group Report", path: "Final_Report-24_25J_257.pdf" },
     ],
   },
-  {
-    category: "Logbooks",
-    files: [
-      { name: "Log Book - IT21375132", path: "IT21375132-Log Book.pdf" },
-      { name: "Log Book - IT21068478", path: "IT21068478-Log Book.pdf" },
-      { name: "Log Book - IT21264634", path: "IT21264634-Log Book.pdf" },
-      { name: "Log Book - IT21204302", path: "IT21204302-Log Book.pdf" },
-    ],
-  },
+  // {
+  //   category: "Logbooks",
+  //   files: [
+  //     { name: "Log Book - IT21375132", path: "IT21375132-Log Book.pdf" },
+  //     { name: "Log Book - IT21068478", path: "IT21068478-Log Book.pdf" },
+  //     { name: "Log Book - IT21264634", path: "IT21264634-Log Book.pdf" },
+  //     { name: "Log Book - IT21204302", path: "IT21204302-Log Book.pdf" },
+  //   ],
+  // },
   {
     category: "Presentations",
     files: [
@@ -59,7 +59,7 @@ const allDocuments = [
     category: "Registration Docs",
     files: [
       { name: "Topic Assessment", path: "TAF_24-25J-257.pdf" },
-      { name: "Project Charter Document", path: "Project_Charter_Document.pdf" },
+      // { name: "Project Charter Document", path: "Project_Charter_Document.pdf" },
     ],
   },
 ];
