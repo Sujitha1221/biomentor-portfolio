@@ -9,7 +9,6 @@ export default function Footer() {
         <div className="flex space-x-4">
           <a href="#about" className="hover:underline text-green-100">About</a>
           <a href="#milestones" className="hover:underline text-green-100">Milestones</a>
-          <a href="#contact" className="hover:underline text-green-100">Contact</a>
         </div>
       </div>
     </footer>
