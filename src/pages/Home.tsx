@@ -9,6 +9,7 @@ import Milestones from "../components/Milestones";
 import ResearchDomain from "../components/ResearchDomain";
 import ProjectLinks from "../components/ProjectLinks";
 import DemoVideo from "../components/DemoVideo";
+import References from "../components/References";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
       <Team />
       <DemoVideo />
       <ProjectLinks />
+      <References />
     </>
   );
 }
