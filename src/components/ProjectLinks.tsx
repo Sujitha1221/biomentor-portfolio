@@ -16,7 +16,7 @@ const ProjectLinks: React.FC = () => {
               <div>
                 <h3 className="text-xl font-bold text-green-800 mb-2">GitHub Repository</h3>
                 <a 
-                  href="https://github.com/Sajeevan-Sivapalan/Loan-portfolio.git"
+                  href="https://github.com/Y3S1-GRP22/BioMentor-Personalized-E-Learning-Platform"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-green-600 hover:text-green-800 text-base font-medium inline-flex items-center"
