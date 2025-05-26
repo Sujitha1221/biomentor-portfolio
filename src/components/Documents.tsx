@@ -56,6 +56,12 @@ const allDocuments = [
     ],
   },
   {
+    category: "Deployment Documents",
+    files: [
+      { name: "Deployment Report", path: "Deployment_Report.pdf" },
+    ],
+  },
+  {
     category: "Registration Docs",
     files: [
       { name: "Topic Assessment", path: "TAF_24-25J-257.pdf" },

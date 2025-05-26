@@ -7,6 +7,8 @@ import Documents from "../components/Documents";
 import Team from "../components/Team";
 import Milestones from "../components/Milestones";
 import ResearchDomain from "../components/ResearchDomain";
+import ProjectLinks from "../components/ProjectLinks";
+import DemoVideo from "../components/DemoVideo";
 
 export default function Home() {
   return (
@@ -20,6 +22,8 @@ export default function Home() {
       <Milestones />
       <Documents />
       <Team />
+      <DemoVideo />
+      <ProjectLinks />
     </>
   );
 }
