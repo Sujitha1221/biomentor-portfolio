@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="bg-gradient-to-r from-green-600 to-emerald-700 text-white py-8 mt-20">
+    <footer className="bg-gradient-to-r from-green-600 to-emerald-700 text-white py-8">
       <div className="max-w-6xl mx-auto px-4 flex flex-col sm:flex-row justify-between items-center gap-4 text-sm">
         <div className="text-center sm:text-left">
           <p className="font-semibold">© {new Date().getFullYear()} BioMentor</p>
